@@ -45,7 +45,7 @@ public class Hogwarts {
     }
 
     public void compareRavenclawStudent(Ravenclaw first, Ravenclaw second) {
-        int firstSum = first.getIntelligence() + first.getWisdom() + first.getSmartness() + second.getCreativity();
+        int firstSum = first.getIntelligence() + first.getWisdom() + first.getSmartness() + first.getCreativity();
         int secondSum = second.getIntelligence() + second.getWisdom() + second.getSmartness() + second.getCreativity();
         if (firstSum > secondSum) {
             System.out.println(first.getName() + " лучший ученик Когтеврана, чем " + second.getName());
